@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Satisfy&family=Source+Serif+Pro&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Source Serif Pro", serif;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  margin: 12% auto;
+  width: 350px;
+  height: 500px;
+  background-color: black;
+  flex-flow: column;
+  padding: 50px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 0;
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid blue;
+  padding: 14px 10px;
+  width: 200px;
+  border-radius: 24px;
+  color: white;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type="button"] {
+  border: 0;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #2ecc71;
+}
+
+div h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  width: 290px;
+
+  transition: 1s;
+  border-color: #2ecc71;
+}
+
+input[type="button"]:focus {
+  border-color: #2ecc71;
+}
